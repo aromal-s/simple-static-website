@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <img src="images/closebar.png" class="fa" onclick="hideMenu()" />
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <img src="images/menubar.png" class="fa" onclick="showMenu()" />
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- .....CONTACT US...... -->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4799.491798208458!2d76.62888696631812!3d8.914355081611989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3036020df5%3A0xc3c1007e5232dc27!2sTKM%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1755621793588!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <img src="images/home.png" alt="">
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Banglore, Karnataka, IN</p>
+                </span>
+                </div>
+           
+            
+                <div>
+                    <img src="images/call.png" alt="">
+                <span>
+                    <h5>+91 1234567890</h5>
+                    <p>Monday To Saturday, 10 AM to 6 PM</p>
+                </span>
+                </div>
+            
+           
+                <div>
+                    <img src="images/mail.png" alt="">
+                <span>
+                    <h5>xyz@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+               <div class="form">
+                <form action="formhandler.php" method="post">
+                    <input type="text" placeholder="Enter your name" name="name" id="" required>
+                    <input type="text" placeholder="Enter email address" name="email" id="" required>
+                    <input type="text" placeholder="Enter your subject" name="subject" id="" required>
+                    <textarea rows="8" placeholder="Message" name="message" id="" required></textarea>
+                    <button type="submit" class="hero-btn btn-about">Send Message</button>
+                </form>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+        laborum architecto soluta nostrum error,<br />
+        qui, quisquam deleniti impedit consequatur numquam cum. Atque ipsa
+        laborum magni quam, soluta nobis dolorum odit!
+      </p>
+      <div class="icons">
+        <img src="images/facebook.png" alt="" />
+        <img src="images/instagram.png" alt="" />
+        <img src="images/twitter.png" alt="" />
+        <img src="images/linkedin.png" alt="" />
+      </div>
+      <p>All Copyright © Reserved By GreatStack</p>
+    </section>
+    <!-- Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

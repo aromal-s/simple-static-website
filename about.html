@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <img src="images/closebar.png" class="fa" onclick="hideMenu()" />
+
+          <ul>
+           <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <img src="images/menubar.png" class="fa" onclick="showMenu()" />
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum
+            cum cumque amet magni velit tempora, perspiciatis repudiandae
+            accusamus nemo atque eaque odio error eum eveniet aut
+            necessitatibus? Facilis, est.
+          </p>
+          <a href="" class="hero-btn btn-about">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+        laborum architecto soluta nostrum error,<br />
+        qui, quisquam deleniti impedit consequatur numquam cum. Atque ipsa
+        laborum magni quam, soluta nobis dolorum odit!
+      </p>
+      <div class="icons">
+        <img src="images/facebook.png" alt="" />
+        <img src="images/instagram.png" alt="" />
+        <img src="images/twitter.png" alt="" />
+        <img src="images/linkedin.png" alt="" />
+      </div>
+      <p>All Copyright © Reserved By GreatStack</p>
+    </section>
+    <!-- Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

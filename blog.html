@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <img src="images/closebar.png" class="fa" onclick="hideMenu()" />
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <img src="images/menubar.png" class="fa" onclick="showMenu()" />
+      </nav>
+      <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+
+   <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatem quia expedita sapiente natus cum provident amet illum neque, odio sint! Illo laboriosam expedita quo ducimus facere repellat, modi quis!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eveniet soluta! Facilis dignissimos dolores et provident culpa vel, delectus odio iste. Accusantium hic non voluptas voluptates perspiciatis, iure asperiores at! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro expedita consectetur a tempora sunt, hic autem ab blanditiis ipsum atque officiis quidem. Ad saepe illo ipsa praesentium, laboriosam ullam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas, voluptatem, enim voluptate similique accusantium aperiam eos deserunt temporibus dolorum illo blanditiis inventore dignissimos exercitationem earum quam eveniet fugiat sapiente!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, voluptates atque cum doloremque explicabo, voluptas, deserunt nostrum praesentium tempore similique repellendus nisi neque esse! Soluta dignissimos quidem repudiandae incidunt assumenda!</p>
+                
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter name" name="" id="">
+                        <input type="email" placeholder="Enter Email" name="" id="">
+                        <textarea rows="5" placeholder="Your comment" name="" id=""></textarea>
+                        <button type="submit"  class="hero-btn btn-about">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>39</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+        laborum architecto soluta nostrum error,<br />
+        qui, quisquam deleniti impedit consequatur numquam cum. Atque ipsa
+        laborum magni quam, soluta nobis dolorum odit!
+      </p>
+      <div class="icons">
+        <img src="images/facebook.png" alt="" />
+        <img src="images/instagram.png" alt="" />
+        <img src="images/twitter.png" alt="" />
+        <img src="images/linkedin.png" alt="" />
+      </div>
+      <p>All Copyright © Reserved By GreatStack</p>
+    </section>
+    <!-- Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
